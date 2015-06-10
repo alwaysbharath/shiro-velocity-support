@@ -2,7 +2,7 @@
 <toolbox>
 	<!-- application start -->
 	<tool>
-		<!-- key>shiro</key --><!-- 可选默认为 shiro -->
+		<key>shiro</key><!-- Include the key or the $shiro won't work. If you change this then you will need to change $shiro as well -->
 		<scope>application</scope>
 		<class>org.apache.shiro.web.support.velocity.Permission</class>
 	</tool>
